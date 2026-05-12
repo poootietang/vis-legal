@@ -4,7 +4,7 @@
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the VIS mobile application ("VIS" or "the app"). This policy explains what information VIS collects, how it's used, who it's shared with, and the choices you have over your data.
 
-If anything in this policy is unclear, you can reach us at **ezrabiomass@gmail.com**.
+If anything in this policy is unclear, you can reach us at **support@yetzerinvestmentgroup.com**.
 
 ## Who VIS is for
 
@@ -78,11 +78,11 @@ You can delete your account from inside VIS:
 3. Type DELETE to confirm
 4. Your account is scheduled for deletion in 7 days, during which you can cancel from the same Settings screen
 
-If you cannot access the app for some reason, email **ezrabiomass@gmail.com** with the subject line "Delete my account" from the email address tied to your account, and we will process the deletion manually within 30 days.
+If you cannot access the app for some reason, email **support@yetzerinvestmentgroup.com** with the subject line "Delete my account" from the email address tied to your account, and we will process the deletion manually within 30 days.
 
 ## Children's privacy
 
-VIS is not designed for, marketed to, or intended for use by children under 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided personal information to VIS, please contact us at **ezrabiomass@gmail.com** and we will delete that information.
+VIS is not designed for, marketed to, or intended for use by children under 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided personal information to VIS, please contact us at **support@yetzerinvestmentgroup.com** and we will delete that information.
 
 ## Your rights if you live in California
 
@@ -93,7 +93,7 @@ If you are a California resident, the California Consumer Privacy Act (CCPA) giv
 - **Correct** inaccurate personal information we hold about you
 - **Opt out** of the "sale" or "sharing" of your personal information — VIS does not sell or share your personal information, so this right is automatic
 
-To exercise these rights, email **ezrabiomass@gmail.com**. We will respond within 45 days. We will not discriminate against you for exercising any of these rights.
+To exercise these rights, email **support@yetzerinvestmentgroup.com**. We will respond within 45 days. We will not discriminate against you for exercising any of these rights.
 
 ## Your rights if you live in the European Union, United Kingdom, or European Economic Area
 
@@ -109,7 +109,7 @@ If you are in the EU, UK, or EEA, the General Data Protection Regulation (GDPR) 
 
 The legal bases on which we process your data are: your consent (for optional features like Sentry crash reporting), the performance of a contract (operating the app you signed up for), and our legitimate interests (security, fraud prevention).
 
-To exercise any of these rights, email **ezrabiomass@gmail.com**. We will respond within 30 days.
+To exercise any of these rights, email **support@yetzerinvestmentgroup.com**. We will respond within 30 days.
 
 ## Changes to this policy
 
@@ -122,4 +122,4 @@ This policy is governed by the laws of the State of Florida, United States, with
 ## Contact
 
 YETZER Investment Group LLC
-**ezrabiomass@gmail.com**
+**support@yetzerinvestmentgroup.com**

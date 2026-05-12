@@ -4,7 +4,7 @@
 
 These Terms of Service ("Terms") govern your use of the VIS mobile application ("VIS" or "the app"), operated by YETZER Investment Group LLC ("we," "us," or "our"). By creating an account or using VIS, you agree to these Terms. If you do not agree, do not use the app.
 
-If anything in these Terms is unclear, you can reach us at **ezrabiomass@gmail.com**.
+If anything in these Terms is unclear, you can reach us at **support@yetzerinvestmentgroup.com**.
 
 ## What VIS does
 
@@ -20,7 +20,7 @@ VIS is not designed for use by people under 18.
 
 ## Your account
 
-You are responsible for keeping your account credentials secure. You are responsible for everything that happens under your account, whether or not you authorized it. If you suspect someone else has accessed your account, contact us immediately at **ezrabiomass@gmail.com**.
+You are responsible for keeping your account credentials secure. You are responsible for everything that happens under your account, whether or not you authorized it. If you suspect someone else has accessed your account, contact us immediately at **support@yetzerinvestmentgroup.com**.
 
 You agree to provide accurate information when you sign up and to keep your account information current.
 
@@ -139,4 +139,4 @@ These Terms are governed by the laws of the State of Florida, United States, wit
 ## Contact
 
 YETZER Investment Group LLC
-**ezrabiomass@gmail.com**
+**support@yetzerinvestmentgroup.com**

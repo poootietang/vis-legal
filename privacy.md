@@ -52,6 +52,10 @@ We share information only with the following service providers, and only to the 
 
 - **Supabase** (supabase.com) hosts our database and storage. Your provider account data and the client data you enter is stored there.
 - **Sentry** (sentry.io) receives crash reports as described above.
+- Apple (apple.com) bills and manages paid subscriptions through the App Store. Apple receives your purchase and subscription status.
+- RevenueCat (revenuecat.com) manages subscription state and receives purchase events, including an anonymous app-user identifier tied to your account.
+- Cloudflare (cloudflare.com) hosts the web app and the client-facing booking pages, and therefore handles connection data such as IP addresses for anyone who opens a booking link.
+- Twilio (twilio.com) is our SMS relay. It is deployed but not yet used by the app — no message has been sent through it.
 
 When you tap a payment-request button in Go-Kart Hippo to send a Venmo, Cash App, Zelle, or PayPal payment link to your client, the relevant payment app opens with the request pre-filled. Go-Kart Hippo does not process the payment, does not see the payment confirmation, and does not share information with these payment services beyond what's contained in the link you send.
 

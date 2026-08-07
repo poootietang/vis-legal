@@ -78,6 +78,10 @@ Go-Kart Hippo uses third-party services to operate, including:
 - **Supabase** for database and storage hosting
 - **Sentry** for crash reporting
 - **Venmo, Cash App, Zelle, and PayPal** for payment requests (when you tap a payment-request button)
+- Apple — bills and manages paid subscriptions through the App Store
+- RevenueCat — manages subscription state and receives purchase events
+- Cloudflare — hosts the web app and the client-facing booking pages
+- Twilio — SMS relay (deployed; not yet used by the app)
 
 Each third-party service has its own terms and privacy practices. We are not responsible for their conduct or for any harm caused by their services. Your use of those services is subject to their own terms.
 

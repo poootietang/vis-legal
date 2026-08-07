@@ -1,6 +1,6 @@
 # Go-Kart Hippo Terms of Service
 
-**Last updated:** May 2, 2026
+**Last updated:** August 7, 2026
 
 These Terms of Service ("Terms") govern your use of the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"), operated by YETZER Investment Group LLC ("we," "us," or "our"). By creating an account or using Go-Kart Hippo, you agree to these Terms. If you do not agree, do not use the app.
 

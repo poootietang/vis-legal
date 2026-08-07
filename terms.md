@@ -55,7 +55,7 @@ We may suspend or terminate your account if we believe you have violated these r
 
 ## Subscriptions and pricing
 
-Go-Kart Hippo is currently free to use. Some features may require a paid subscription in the future. If we introduce paid features, we will give you advance notice and clearly mark which features are subscription-only before any charge is made. Your use of any paid feature will be subject to additional terms presented at the time of purchase.
+Go-Kart Hippo offers a free tier and one or more paid subscription tiers. Paid subscriptions are purchased through the Apple App Store and are billed by Apple under your App Store account. Subscription status is managed for us by RevenueCat. You can view, change, or cancel a subscription in your Apple account settings; refunds are handled by Apple under its own policies. Any paid feature is subject to the terms presented at the time of purchase.
 
 ## Payments to you and your clients
 

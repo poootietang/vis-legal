@@ -32,7 +32,7 @@ You are responsible for the information you collect about your clients. Go-Kart 
 When you choose to send one, Go-Kart Hippo emails your client on your behalf — an invoice, a receipt, or a note that a visit moved. We do not message your clients for our own purposes.
 
 **Information from your device.** When you use certain features:
-- **Location** — Go-Kart Hippo uses your phone's location only when you tap to get driving directions to a job, so your maps app can open with the route. Your location is used in that moment, is not stored on our servers, and is not shared with anyone.
+- **Location** — Go-Kart Hippo uses your phone's location to share an arrival time with your client and to give you driving directions to their address. Your location is used in the moment and is not stored on our servers.
 - **Photos** — Go-Kart Hippo asks for permission to access your photo library only when you tap to set a profile picture. The photo you select is uploaded to our storage so it appears on your account.
 - **Face ID / Touch ID** — Go-Kart Hippo asks for biometric permission only to unlock client notes you have chosen to lock. The biometric check happens on your device; we never receive your biometric data.
 

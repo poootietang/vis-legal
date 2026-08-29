@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** August 7, 2026
+**Last updated:** August 28, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 
@@ -8,7 +8,9 @@ If anything in this policy is unclear, you can reach us at **support@yetzerinves
 
 ## Who Go-Kart Hippo is for
 
-Go-Kart Hippo is a scheduling and billing app for independent service professionals. The person using the app — the "provider" — runs their own business and uses Go-Kart Hippo to track clients, appointments, and payments. Clients of those providers do not have Go-Kart Hippo accounts; they appear in the provider's data only because the provider added them.
+Go-Kart Hippo is a scheduling and billing app for independent service professionals. The person using the app — the "provider" — runs their own business and uses Go-Kart Hippo to track clients, appointments, and payments.
+
+A client appears in a provider's data because the provider added them. Separately, clients can hold their own Go-Kart Hippo account, sign in, and see the visits, documents and balances their provider shares with them. A client's account shows only what her own providers have shared.
 
 ## What information we collect
 
@@ -25,10 +27,12 @@ Go-Kart Hippo is a scheduling and billing app for independent service profession
 - Appointments you schedule for them
 - Invoices, estimates, and receipts you create for them
 
-You are responsible for the information you collect about your clients. Go-Kart Hippo stores this information so you can run your business; we do not contact your clients on your behalf.
+You are responsible for the information you collect about your clients. Go-Kart Hippo stores this information so you can run your business.
+
+When you choose to send one, Go-Kart Hippo emails your client on your behalf — an invoice, a receipt, or a note that a visit moved. We do not message your clients for our own purposes.
 
 **Information from your device.** When you use certain features:
-- **Location** — Go-Kart Hippo uses your phone's location to share an arrival time with your client and to give you driving directions to their address. Your location is used in the moment and is not stored on our servers.
+- **Location** — Go-Kart Hippo uses your phone's location only when you tap to get driving directions to a job, so your maps app can open with the route. Your location is used in that moment, is not stored on our servers, and is not shared with anyone.
 - **Photos** — Go-Kart Hippo asks for permission to access your photo library only when you tap to set a profile picture. The photo you select is uploaded to our storage so it appears on your account.
 - **Face ID / Touch ID** — Go-Kart Hippo asks for biometric permission only to unlock client notes you have chosen to lock. The biometric check happens on your device; we never receive your biometric data.
 
@@ -56,6 +60,9 @@ We share information only with the following service providers, and only to the 
 - RevenueCat (revenuecat.com) manages subscription state and receives purchase events, including an anonymous app-user identifier tied to your account.
 - Cloudflare (cloudflare.com) hosts the web app and the client-facing booking pages, and therefore handles connection data such as IP addresses for anyone who opens a booking link.
 - Twilio (twilio.com) is our SMS relay. It is deployed but not yet used by the app — no message has been sent through it.
+- Google (google.com) provides address autocomplete. When you type a client's street address, what you type is sent to Google Places to suggest and confirm it. This means a client's street address — typed by you, about a person who has not agreed to anything with Google — is sent to Google.
+- Resend (resend.com) delivers the emails you send to your clients.
+- Stripe (stripe.com) processes subscription payments and gift purchases.
 
 When you tap a payment-request button in Go-Kart Hippo to send a Venmo, Cash App, Zelle, or PayPal payment link to your client, the relevant payment app opens with the request pre-filled. Go-Kart Hippo does not process the payment, does not see the payment confirmation, and does not share information with these payment services beyond what's contained in the link you send.
 

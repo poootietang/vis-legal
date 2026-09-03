@@ -1,6 +1,6 @@
 # Go-Kart Hippo Terms of Service
 
-**Last updated:** August 7, 2026
+**Last updated:** September 3, 2026
 
 These Terms of Service ("Terms") govern your use of the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"), operated by YETZER Investment Group LLC ("we," "us," or "our"). By creating an account or using Go-Kart Hippo, you agree to these Terms. If you do not agree, do not use the app.
 
@@ -8,7 +8,7 @@ If anything in these Terms is unclear, you can reach us at **support@yetzerinves
 
 ## What Go-Kart Hippo does
 
-Go-Kart Hippo is a scheduling and billing tool for independent service professionals. The app lets you track your clients, schedule appointments, generate invoices and estimates, and create payment-request links you send to your clients through external payment apps (Venmo, Cash App, Zelle, PayPal).
+Go-Kart Hippo is a scheduling and billing tool for independent service professionals. The app lets you track your clients, schedule appointments, generate invoices, estimates, and receipts, and create payment-request links you send to your clients through external payment apps (Venmo, Cash App, Zelle, PayPal).
 
 Go-Kart Hippo is a tool you use to run your business. It is not a payment processor, a customer-relationship management platform, or an accounting service. We do not handle money, do not provide tax advice, and do not provide legal advice.
 

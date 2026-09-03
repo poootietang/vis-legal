@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** August 28, 2026
+**Last updated:** September 3, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 
@@ -29,7 +29,7 @@ A client appears in a provider's data because the provider added them. Separatel
 
 You are responsible for the information you collect about your clients. Go-Kart Hippo stores this information so you can run your business.
 
-When you choose to send one, Go-Kart Hippo emails your client on your behalf — an invoice, a receipt, or a note that a visit moved. We do not message your clients for our own purposes.
+When you choose to send one, Go-Kart Hippo emails the recipient on your behalf — an invoice, an estimate, a receipt, or a note that a visit moved. The recipient doesn't need to already be a client of yours. We do not message anyone for our own purposes.
 
 **Information from your device.** When you use certain features:
 - **Location** — Go-Kart Hippo uses your phone's location to share an arrival time with your client and to give you driving directions to their address. Your location is used in the moment and is not stored on our servers.

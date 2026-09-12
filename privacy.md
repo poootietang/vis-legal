@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** September 3, 2026
+**Last updated:** September 12, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 
@@ -56,13 +56,13 @@ We share information only with the following service providers, and only to the 
 
 - **Supabase** (supabase.com) hosts our database and storage. Your provider account data and the client data you enter is stored there.
 - **Sentry** (sentry.io) receives crash reports as described above.
-- Apple (apple.com) bills and manages paid subscriptions through the App Store. Apple receives your purchase and subscription status.
-- RevenueCat (revenuecat.com) manages subscription state and receives purchase events, including an anonymous app-user identifier tied to your account.
+- Apple (apple.com) bills and manages paid subscriptions bought on an iPhone, through the App Store. Apple receives your purchase and subscription status. If you subscribed on the website, Apple is not involved and receives nothing.
+- RevenueCat (revenuecat.com) manages subscription state for subscriptions bought on an iPhone, and receives purchase events. It is not involved in a website subscription. Your device contacts RevenueCat whenever you are signed in on a phone — not only when you buy — and sends an app-user identifier tied to your account. That identifier is a token created for this purpose and is not your account's own identifier.
 - Cloudflare (cloudflare.com) hosts the web app and the client-facing booking pages, and therefore handles connection data such as IP addresses for anyone who opens a booking link.
 - Twilio (twilio.com) is our SMS relay. It is deployed but not yet used by the app — no message has been sent through it.
 - Google (google.com) provides address autocomplete. When you type a client's street address, what you type is sent to Google Places to suggest and confirm it. This means a client's street address — typed by you, about a person who has not agreed to anything with Google — is sent to Google.
 - Resend (resend.com) delivers the emails you send to your clients.
-- Stripe (stripe.com) processes subscription payments and gift purchases.
+- Stripe (stripe.com) processes subscription payments and gift purchases. If you set up a payout account so clients can pay you through Go-Kart Hippo, you enter your identity and bank details into Stripe's own form; those details go to Stripe and not to us, and we store only your bank's name and the last four digits of the account. When the client-payment feature is switched on, a client paying one of your bills will enter their card details directly with Stripe — we will never see or hold them. That feature is built but not yet reachable by clients; no client has paid through it.
 
 When you tap a payment-request button in Go-Kart Hippo to send a Venmo, Cash App, Zelle, or PayPal payment link to your client, the relevant payment app opens with the request pre-filled. Go-Kart Hippo does not process the payment, does not see the payment confirmation, and does not share information with these payment services beyond what's contained in the link you send.
 

@@ -1,6 +1,6 @@
 # Go-Kart Hippo Terms of Service
 
-**Last updated:** September 3, 2026
+**Last updated:** September 12, 2026
 
 These Terms of Service ("Terms") govern your use of the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"), operated by YETZER Investment Group LLC ("we," "us," or "our"). By creating an account or using Go-Kart Hippo, you agree to these Terms. If you do not agree, do not use the app.
 
@@ -55,7 +55,15 @@ We may suspend or terminate your account if we believe you have violated these r
 
 ## Subscriptions and pricing
 
-Go-Kart Hippo offers a free tier and one or more paid subscription tiers. Paid subscriptions are purchased through the Apple App Store and are billed by Apple under your App Store account. Subscription status is managed for us by RevenueCat. You can view, change, or cancel a subscription in your Apple account settings; refunds are handled by Apple under its own policies. Any paid feature is subject to the terms presented at the time of purchase.
+Go-Kart Hippo offers a free tier and one or more paid subscription tiers.
+
+**Where you subscribed decides who bills you and where you cancel.** The two are separate: a subscription bought on one cannot be changed or cancelled from the other, and the website will not sell you a second subscription while one is already live — it refuses before any money moves.
+
+**If you subscribed on an iPhone, inside the app.** Your subscription is purchased through the Apple App Store and billed by Apple under your App Store account; RevenueCat receives the purchase and subscription events on our behalf. You can view, change, or cancel it in your Apple account settings — on your iPhone: Settings, then your name, then Subscriptions. Refunds are handled by Apple under its own policies; we cannot refund an App Store purchase.
+
+**If you subscribed on the website.** Your subscription is purchased and billed by Stripe, and Apple is not involved. You turn off renewal on the website, on your plan screen: nothing stops that day, you keep the plan through the day you have paid for, and nothing further is charged. Apple cannot refund a website subscription — only we can. Write to us at support@yetzerinvestmentgroup.com.
+
+Any paid feature is subject to the terms presented at the time of purchase.
 
 ## Payments to you and your clients
 
@@ -78,10 +86,13 @@ Go-Kart Hippo uses third-party services to operate, including:
 - **Supabase** for database and storage hosting
 - **Sentry** for crash reporting
 - **Venmo, Cash App, Zelle, and PayPal** for payment requests (when you tap a payment-request button)
-- Apple — bills and manages paid subscriptions through the App Store
-- RevenueCat — manages subscription state and receives purchase events
+- Apple — bills and manages paid subscriptions bought on an iPhone, through the App Store
+- Stripe — bills and manages paid subscriptions bought on the website, and processes gift purchases
+- RevenueCat — manages subscription state and receives purchase events for the iPhone route only; it is not involved in a website subscription
 - Cloudflare — hosts the web app and the client-facing booking pages
 - Twilio — SMS relay (deployed; not yet used by the app)
+- Resend — delivers the emails you send to your clients
+- Google — provides address autocomplete when you type a client's street address
 
 Each third-party service has its own terms and privacy practices. We are not responsible for their conduct or for any harm caused by their services. Your use of those services is subject to their own terms.
 

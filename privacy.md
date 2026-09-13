@@ -68,6 +68,22 @@ When you tap a payment-request button in Go-Kart Hippo to send a Venmo, Cash App
 
 We may disclose information if required by law (a valid subpoena, court order, or equivalent), or to protect our legal rights. If this happens and we are not legally prohibited from telling you, we will.
 
+## Text messages to your clients
+
+Go-Kart Hippo sends two kinds of text message to your clients on your behalf: an appointment reminder the evening before a scheduled visit, and an on-the-way notification shortly before you arrive. These are service notifications only — no marketing or promotional messages. Consent is collected by you at the time of booking, and reminders are sent only to clients who have agreed. The full program terms are at [Text Messaging Terms & Consent](https://legal.yetzerinvestmentgroup.com/sms-messaging-terms).
+
+**The terms your clients receive are these:**
+
+**Message frequency.** Frequency depends on how often a client books — typically up to two messages per scheduled appointment (one reminder, one on-the-way).
+
+**Rates.** Message and data rates may apply.
+
+**Opting out.** Reply STOP to any message to stop receiving texts; you'll get a confirmation and no further messages. Reply START to opt back in. A provider can also turn off reminders for a client at any time in the app.
+
+**Help.** Reply HELP for help, or contact us at [support@yetzerinvestmentgroup.com](mailto:support@yetzerinvestmentgroup.com).
+
+**Mobile information.** Your mobile information is never shared or sold to third parties or affiliates for marketing or promotional purposes. Mobile numbers are used solely to deliver the appointment notifications described above.
+
 ## How we store and protect information
 
 Your data is stored on servers managed by Supabase, hosted in the United States. Communication between your device and Supabase is encrypted in transit (HTTPS / TLS). Database access is gated by row-level security so providers can only read and write their own data.

@@ -39,6 +39,22 @@ Specifically, you agree that:
 
 If a client of yours contacts us directly with a complaint or a legal demand about their information, we may forward that contact to you and may suspend the relevant data in your account while the dispute is resolved.
 
+## Text messages to your clients
+
+Go-Kart Hippo can send appointment reminders and on-the-way notifications by text message to your clients, on your behalf. You are responsible for obtaining each client's consent before enabling messages for them, and for recording that consent in the app. Clients who have not agreed are never texted. The full program terms are at [Text Messaging Terms & Consent](https://legal.yetzerinvestmentgroup.com/sms-messaging-terms).
+
+**The terms your clients receive are these:**
+
+**Message frequency.** Frequency depends on how often a client books — typically up to two messages per scheduled appointment (one reminder, one on-the-way).
+
+**Rates.** Message and data rates may apply.
+
+**Opting out.** Reply STOP to any message to stop receiving texts; you'll get a confirmation and no further messages. Reply START to opt back in. A provider can also turn off reminders for a client at any time in the app.
+
+**Help.** Reply HELP for help, or contact us at [support@yetzerinvestmentgroup.com](mailto:support@yetzerinvestmentgroup.com).
+
+**Mobile information.** Your mobile information is never shared or sold to third parties or affiliates for marketing or promotional purposes. Mobile numbers are used solely to deliver the appointment notifications described above.
+
 ## Acceptable use
 
 You agree not to use Go-Kart Hippo to:

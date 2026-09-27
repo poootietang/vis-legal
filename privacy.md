@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** September 12, 2026
+**Last updated:** September 27, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 
@@ -32,7 +32,7 @@ You are responsible for the information you collect about your clients. Go-Kart 
 When you choose to send one, Go-Kart Hippo emails the recipient on your behalf — an invoice, an estimate, a receipt, or a note that a visit moved. The recipient doesn't need to already be a client of yours. We do not message anyone for our own purposes.
 
 **Information from your device.** When you use certain features:
-- **Location** — Go-Kart Hippo uses your phone's location to share an arrival time with your client and to give you driving directions to their address. Your location is used in the moment and is not stored on our servers.
+- **Location** — Go-Kart Hippo uses your phone's location to give you driving directions to a client's address, and, when you tap Send ETA, to work out when you'll arrive so you can text that time to your client from your own phone. For the arrival time, your position at that moment is sent through our server to Google, which calculates one driving route. We do not store your position or keep a log of it. When you take a card payment in person with Tap to Pay on iPhone, Stripe's payment software on your phone reads your location during the payment, because Stripe needs to know where a payment happens to reduce fraud and disputes and turns in-person payments off when it can't. That location goes to Stripe, not to us.
 - **Photos** — Go-Kart Hippo asks for permission to access your photo library only when you tap to set a profile picture. The photo you select is uploaded to our storage so it appears on your account.
 - **Face ID / Touch ID** — Go-Kart Hippo asks for biometric permission only to unlock client notes you have chosen to lock. The biometric check happens on your device; we never receive your biometric data.
 
@@ -60,7 +60,7 @@ We share information only with the following service providers, and only to the 
 - RevenueCat (revenuecat.com) manages subscription state for subscriptions bought on an iPhone, and receives purchase events. It is not involved in a website subscription. Your device contacts RevenueCat whenever you are signed in on a phone — not only when you buy — and sends an app-user identifier tied to your account. That identifier is a token created for this purpose and is not your account's own identifier.
 - Cloudflare (cloudflare.com) hosts the web app and the client-facing booking pages, and therefore handles connection data such as IP addresses for anyone who opens a booking link.
 - Twilio (twilio.com) is our SMS relay. It is deployed but not yet used by the app — no message has been sent through it.
-- Google (google.com) provides address autocomplete. When you type a client's street address, what you type is sent to Google Places to suggest and confirm it. This means a client's street address — typed by you, about a person who has not agreed to anything with Google — is sent to Google.
+- Google (google.com) provides address autocomplete. When you type a client's street address, what you type is sent to Google Places to suggest and confirm it. This means a client's street address — typed by you, about a person who has not agreed to anything with Google — is sent to Google. Google also works out the arrival time when you tap Send ETA: your position at that moment and your client's address are sent to Google to calculate one driving route. We keep only Google's identifier for the address (a place ID), not your position or the route.
 - Resend (resend.com) delivers the emails you send to your clients.
 - Stripe (stripe.com) processes subscription payments and gift purchases. If you set up a payout account so clients can pay you through Go-Kart Hippo, you enter your identity and bank details into Stripe's own form; those details go to Stripe and not to us, and we store only your bank's name and the last four digits of the account. When the client-payment feature is switched on, a client paying one of your bills will enter their card details directly with Stripe — we will never see or hold them. That feature is built but not yet reachable by clients; no client has paid through it.
 

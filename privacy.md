@@ -94,16 +94,16 @@ No system is ever 100% secure. If we discover a breach affecting your data, we w
 
 We keep your account data for as long as your account is active.
 
-If you delete your account, your data enters a 7-day cool-down period during which you can cancel the deletion. After 7 days, all of your provider account data, client records, appointments, invoices, notes, and uploaded photos are permanently deleted from our database. Backups containing your data are rotated within the timeframe specified by our hosting provider's policies.
+If you delete your account, your data enters a 7-day cool-down period during which you can cancel the deletion. After 7 days, all of your provider account data, client records, appointments, invoices and notes are permanently deleted from our database, and your uploaded photos are permanently deleted from our file storage as well as from the database. Backups containing your data are rotated within the timeframe specified by our hosting provider's policies.
 
 ## How to delete your account
 
 You can delete your account from inside Go-Kart Hippo:
 
 1. Open Settings
-2. Scroll to the **Delete Account** option
-3. Type DELETE to confirm
-4. Your account is scheduled for deletion in 7 days, during which you can cancel from the same Settings screen
+2. Tap your business name at the top to open **Account**
+3. Tap **Delete account** and type DELETE to confirm
+4. Your account is scheduled for deletion in 7 days, during which you can cancel with **Cancel deletion** on the same Account screen
 
 If you cannot access the app for some reason, email **support@yetzerinvestmentgroup.com** with the subject line "Delete my account" from the email address tied to your account, and we will process the deletion manually within 30 days.
 

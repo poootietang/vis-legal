@@ -1,6 +1,6 @@
 # Go-Kart Hippo Terms of Service
 
-**Last updated:** September 12, 2026
+**Last updated:** October 2, 2026
 
 These Terms of Service ("Terms") govern your use of the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"), operated by YETZER Investment Group LLC ("we," "us," or "our"). By creating an account or using Go-Kart Hippo, you agree to these Terms. If you do not agree, do not use the app.
 
@@ -8,9 +8,9 @@ If anything in these Terms is unclear, you can reach us at **support@yetzerinves
 
 ## What Go-Kart Hippo does
 
-Go-Kart Hippo is a scheduling and billing tool for independent service professionals. The app lets you track your clients, schedule appointments, generate invoices, estimates, and receipts, and create payment-request links you send to your clients through external payment apps (Venmo, Cash App, Zelle, PayPal).
+Go-Kart Hippo is a scheduling and billing tool for independent service professionals. The app lets you track your clients, schedule appointments, generate invoices, estimates, and receipts, and get paid: your clients can pay you by card or bank through Stripe, and you can send payment-request links for external payment apps (Venmo, Cash App, Zelle, PayPal).
 
-Go-Kart Hippo is a tool you use to run your business. It is not a payment processor, a customer-relationship management platform, or an accounting service. We do not handle money, do not provide tax advice, and do not provide legal advice.
+Go-Kart Hippo is a tool you use to run your business. It is not a payment processor, a customer-relationship management platform, or an accounting service. Card and bank payments are processed by Stripe and paid into your own Stripe account; we never hold your clients' money or yours. We do not provide tax advice or legal advice.
 
 ## Eligibility
 
@@ -71,7 +71,7 @@ We may suspend or terminate your account if we believe you have violated these r
 
 ## Subscriptions and pricing
 
-Go-Kart Hippo offers a free tier and one or more paid subscription tiers.
+You can use Go-Kart Hippo without a paid plan, and there are one or more paid subscription tiers. Using it without a plan costs no subscription fee, but card and bank payments your clients make to you carry a 3% fee while you have no plan; see "Payments to you and your clients" below.
 
 **Where you subscribed decides who bills you and where you cancel.** The two are separate: a subscription bought on one cannot be changed or cancelled from the other, and the website will not sell you a second subscription while one is already live — it refuses before any money moves.
 
@@ -83,9 +83,15 @@ Any paid feature is subject to the terms presented at the time of purchase.
 
 ## Payments to you and your clients
 
-Go-Kart Hippo generates payment-request links you send to your clients through external services (Venmo, Cash App, Zelle, PayPal). When your client taps a payment link, the relevant external app opens with the request pre-filled. We do not process the payment, do not hold funds, and do not guarantee that any client will pay.
+**Payment-request links.** Go-Kart Hippo generates payment-request links you send to your clients through external services (Venmo, Cash App, Zelle, PayPal). When your client taps one, the relevant external app opens with the request pre-filled. Those payments happen entirely inside the external service; we do not process them, do not hold the funds, and do not guarantee that any client will pay.
 
-Disputes about payments are between you and your client and, where applicable, between you and the external payment service. We are not a party to those disputes and will not mediate them.
+**Card and bank payments.** If you connect a Stripe account in Settings, your clients can pay you by card or bank: from a bill on their client page, through a payment link you send them, or in person with Tap to Pay on iPhone. Each payment is processed by Stripe as a charge on your own connected Stripe account, with you as the merchant of record, and Stripe pays it out to your bank. Go-Kart Hippo never holds the money.
+
+**What a card or bank payment costs.** Your client pays a small processing fee on top of your bill, shown to them before they pay. That fee covers Stripe's own fee, so your bill reaches your Stripe account whole. If you do not have a paid plan when the payment is made, Go-Kart Hippo keeps 3% of the bill, taken out of the payment before it reaches your bank: on a $200.00 bill, $6.00. On Pro and Premium we keep nothing. The plan you have at the moment your client pays decides which applies, not the plan you had when you sent the bill.
+
+**Disputes and reversals.** If a client disputes a card or bank payment, or their bank pulls it back, the amount and Stripe's fee for it come out of your Stripe account, not ours. Disputes about payments are between you and your client and, where applicable, between you and the payment service. We are not a party to those disputes and will not mediate them.
+
+**The Stripe Services Agreement.** Payment processing services for providers on Go-Kart Hippo are provided by Stripe and are subject to the [Stripe Connected Account Agreement](https://stripe.com/connect-account/legal), which includes the [Stripe Terms of Service](https://stripe.com/legal) (collectively, the "Stripe Services Agreement"). By agreeing to these Terms or continuing to operate as a provider on Go-Kart Hippo, you agree to be bound by the Stripe Services Agreement, as the same may be modified by Stripe from time to time. As a condition of Go-Kart Hippo enabling payment processing services through Stripe, you agree to provide Go-Kart Hippo accurate and complete information about you and your business, and you authorize Go-Kart Hippo to share it and transaction information related to your use of the payment processing services provided by Stripe.
 
 You are responsible for any taxes you owe on your income. Go-Kart Hippo does not provide tax advice or tax forms.
 
@@ -103,7 +109,7 @@ Go-Kart Hippo uses third-party services to operate, including:
 - **Sentry** for crash reporting
 - **Venmo, Cash App, Zelle, and PayPal** for payment requests (when you tap a payment-request button)
 - Apple — bills and manages paid subscriptions bought on an iPhone, through the App Store
-- Stripe — bills and manages paid subscriptions bought on the website, and processes gift purchases
+- Stripe — processes the card and bank payments your clients make to you, bills and manages paid subscriptions bought on the website, and processes gift purchases
 - RevenueCat — manages subscription state and receives purchase events for the iPhone route only; it is not involved in a website subscription
 - Cloudflare — hosts the web app and the client-facing booking pages
 - Twilio — SMS relay (deployed; not yet used by the app)

@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** September 27, 2026
+**Last updated:** October 3, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 
@@ -59,7 +59,7 @@ We share information only with the following service providers, and only to the 
 - Apple (apple.com) bills and manages paid subscriptions bought on an iPhone, through the App Store. Apple receives your purchase and subscription status. If you subscribed on the website, Apple is not involved and receives nothing.
 - RevenueCat (revenuecat.com) manages subscription state for subscriptions bought on an iPhone, and receives purchase events. It is not involved in a website subscription. Your device contacts RevenueCat whenever you are signed in on a phone — not only when you buy — and sends an app-user identifier tied to your account. That identifier is a token created for this purpose and is not your account's own identifier.
 - Cloudflare (cloudflare.com) hosts the web app and the client-facing booking pages, and therefore handles connection data such as IP addresses for anyone who opens a booking link.
-- Twilio (twilio.com) is our SMS relay. It is deployed but not yet used by the app — no message has been sent through it.
+- Twilio (twilio.com) holds a phone number for a future feature. The app does not use it today, and no message has been sent through it.
 - Google (google.com) provides address autocomplete. When you type a client's street address, what you type is sent to Google Places to suggest and confirm it. This means a client's street address — typed by you, about a person who has not agreed to anything with Google — is sent to Google. Google also works out the arrival time when you tap Send ETA: your position at that moment and your client's address are sent to Google to calculate one driving route. We keep only Google's identifier for the address (a place ID), not your position or the route.
 - Resend (resend.com) delivers the emails you send to your clients.
 - Stripe (stripe.com) processes subscription payments and gift purchases. If you set up a payout account so clients can pay you through Go-Kart Hippo, you enter your identity and bank details into Stripe's own form; those details go to Stripe and not to us, and we store only your bank's name and the last four digits of the account. When the client-payment feature is switched on, a client paying one of your bills will enter their card details directly with Stripe — we will never see or hold them. That feature is built but not yet reachable by clients; no client has paid through it.
@@ -70,19 +70,7 @@ We may disclose information if required by law (a valid subpoena, court order, o
 
 ## Text messages to your clients
 
-Go-Kart Hippo sends two kinds of text message to your clients on your behalf: an appointment reminder the evening before a scheduled visit, and an on-the-way notification shortly before you arrive. These are service notifications only — no marketing or promotional messages. Consent is collected by you at the time of booking, and reminders are sent only to clients who have agreed. The full program terms are at [Text Messaging Terms & Consent](https://legal.yetzerinvestmentgroup.com/sms-messaging-terms).
-
-**The terms your clients receive are these:**
-
-**Message frequency.** Frequency depends on how often a client books — typically up to two messages per scheduled appointment (one reminder, one on-the-way).
-
-**Rates.** Message and data rates may apply.
-
-**Opting out.** Reply STOP to any message to stop receiving texts; you'll get a confirmation and no further messages. Reply START to opt back in. A provider can also turn off reminders for a client at any time in the app.
-
-**Help.** Reply HELP for help, or contact us at [support@yetzerinvestmentgroup.com](mailto:support@yetzerinvestmentgroup.com).
-
-**Mobile information.** Your mobile information is never shared or sold to third parties or affiliates for marketing or promotional purposes. Mobile numbers are used solely to deliver the appointment notifications described above.
+Go-Kart Hippo does not text your clients. When you send an On my way message, an arrival time or an evening reminder, your phone's own Messages app opens with the text written, and you send it from your own number. It does not go through us.
 
 ## How we store and protect information
 

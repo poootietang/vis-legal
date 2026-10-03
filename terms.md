@@ -41,7 +41,7 @@ If a client of yours contacts us directly with a complaint or a legal demand abo
 
 ## Text messages to your clients
 
-Go-Kart Hippo can send appointment reminders and on-the-way notifications by text message to your clients, on your behalf. You are responsible for obtaining each client's consent before enabling messages for them, and for recording that consent in the app. Clients who have not agreed are never texted. The full program terms are at [Text Messaging Terms & Consent](https://legal.yetzerinvestmentgroup.com/sms-messaging-terms).
+Go-Kart Hippo can send appointment reminders and on-the-way notifications by text message to your clients, on your behalf. You are responsible for obtaining each client's consent before enabling messages for them, and for recording that consent in the app. Clients who have not agreed are never texted.
 
 **The terms your clients receive are these:**
 

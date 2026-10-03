@@ -5,6 +5,8 @@ title: Text Messaging Terms & Consent
 
 # Go-Kart Hippo — Text Messaging Terms & Consent
 
+> **Not in use (October 3, 2026).** Go-Kart Hippo does not text anyone, and no message has been sent under the program described below. A provider's texts to her clients go from her own phone. This page is kept as a record and will be rewritten if a texting feature is introduced.
+
 *A service of Yetzer Investment Group LLC*
 
 ## About Go-Kart Hippo

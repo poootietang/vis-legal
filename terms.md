@@ -1,6 +1,6 @@
 # Go-Kart Hippo Terms of Service
 
-**Last updated:** October 2, 2026
+**Last updated:** October 3, 2026
 
 These Terms of Service ("Terms") govern your use of the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"), operated by YETZER Investment Group LLC ("we," "us," or "our"). By creating an account or using Go-Kart Hippo, you agree to these Terms. If you do not agree, do not use the app.
 
@@ -41,19 +41,7 @@ If a client of yours contacts us directly with a complaint or a legal demand abo
 
 ## Text messages to your clients
 
-Go-Kart Hippo can send appointment reminders and on-the-way notifications by text message to your clients, on your behalf. You are responsible for obtaining each client's consent before enabling messages for them, and for recording that consent in the app. Clients who have not agreed are never texted.
-
-**The terms your clients receive are these:**
-
-**Message frequency.** Frequency depends on how often a client books — typically up to two messages per scheduled appointment (one reminder, one on-the-way).
-
-**Rates.** Message and data rates may apply.
-
-**Opting out.** Reply STOP to any message to stop receiving texts; you'll get a confirmation and no further messages. Reply START to opt back in. A provider can also turn off reminders for a client at any time in the app.
-
-**Help.** Reply HELP for help, or contact us at [support@yetzerinvestmentgroup.com](mailto:support@yetzerinvestmentgroup.com).
-
-**Mobile information.** Your mobile information is never shared or sold to third parties or affiliates for marketing or promotional purposes. Mobile numbers are used solely to deliver the appointment notifications described above.
+Go-Kart Hippo does not send text messages to your clients. When you send an On my way message, an arrival time or an evening reminder, your phone's own Messages app opens with the text written, and you send it from your own number. It does not go through us.
 
 ## Acceptable use
 
@@ -112,7 +100,7 @@ Go-Kart Hippo uses third-party services to operate, including:
 - Stripe — processes the card and bank payments your clients make to you, bills and manages paid subscriptions bought on the website, and processes gift purchases
 - RevenueCat — manages subscription state and receives purchase events for the iPhone route only; it is not involved in a website subscription
 - Cloudflare — hosts the web app and the client-facing booking pages
-- Twilio — SMS relay (deployed; not yet used by the app)
+- Twilio — holds a phone number for a future feature; the app does not use it today, and no message has been sent through it
 - Resend — delivers the emails you send to your clients
 - Google — provides address autocomplete when you type a client's street address
 

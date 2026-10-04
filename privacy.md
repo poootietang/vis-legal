@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** October 3, 2026
+**Last updated:** October 4, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 
@@ -82,16 +82,29 @@ No system is ever 100% secure. If we discover a breach affecting your data, we w
 
 We keep your account data for as long as your account is active.
 
-If you delete your account, your data enters a 7-day cool-down period during which you can cancel the deletion. After 7 days, all of your provider account data, client records, appointments, invoices and notes are permanently deleted from our database, and your uploaded photos are permanently deleted from our file storage as well as from the database. Backups containing your data are rotated within the timeframe specified by our hosting provider's policies.
+If you delete your account, your data enters a 7-day cool-down period during which you can cancel the deletion. After 7 days:
+
+- **A provider account:** all of your provider account data, client records, appointments, invoices and notes are permanently deleted from our database, and your uploaded photos are permanently deleted from our file storage as well as from the database.
+- **A client account:** your sign-in, your email address, your connections to your providers and the updates they have shared with you are permanently deleted from our database. Your providers keep their own records of the work they did for you; those records are theirs and are covered by the provider sections of this policy.
+
+Backups containing your data are rotated within the timeframe specified by our hosting provider's policies.
 
 ## How to delete your account
 
-You can delete your account from inside Go-Kart Hippo:
+You can delete your account from inside Go-Kart Hippo.
+
+**If you hold a provider account:**
 
 1. Open Settings
 2. Tap your business name at the top to open **Account**
 3. Tap **Delete account** and type DELETE to confirm
 4. Your account is scheduled for deletion in 7 days, during which you can cancel with **Cancel deletion** on the same Account screen
+
+**If you hold a client account:**
+
+1. On **Your providers**, tap the gear to open **Your account**
+2. Tap **Delete account** and type DELETE to confirm
+3. Your account is scheduled for deletion in 7 days, during which you can cancel with **Cancel deletion** on the same screen
 
 If you cannot access the app for some reason, email **support@yetzerinvestmentgroup.com** with the subject line "Delete my account" from the email address tied to your account, and we will process the deletion manually within 30 days.
 

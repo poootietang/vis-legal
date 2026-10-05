@@ -1,6 +1,6 @@
 # Go-Kart Hippo Terms of Service
 
-**Last updated:** October 3, 2026
+**Last updated:** October 4, 2026
 
 These Terms of Service ("Terms") govern your use of the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"), operated by YETZER Investment Group LLC ("we," "us," or "our"). By creating an account or using Go-Kart Hippo, you agree to these Terms. If you do not agree, do not use the app.
 
@@ -79,7 +79,7 @@ Any paid feature is subject to the terms presented at the time of purchase.
 
 **Disputes and reversals.** If a client disputes a card or bank payment, or their bank pulls it back, the amount and Stripe's fee for it come out of your Stripe account, not ours. Disputes about payments are between you and your client and, where applicable, between you and the payment service. We are not a party to those disputes and will not mediate them.
 
-**The Stripe Services Agreement.** Payment processing services for providers on Go-Kart Hippo are provided by Stripe and are subject to the [Stripe Connected Account Agreement](https://stripe.com/connect-account/legal), which includes the [Stripe Terms of Service](https://stripe.com/legal) (collectively, the "Stripe Services Agreement"). By agreeing to these Terms or continuing to operate as a provider on Go-Kart Hippo, you agree to be bound by the Stripe Services Agreement, as the same may be modified by Stripe from time to time. As a condition of Go-Kart Hippo enabling payment processing services through Stripe, you agree to provide Go-Kart Hippo accurate and complete information about you and your business, and you authorize Go-Kart Hippo to share it and transaction information related to your use of the payment processing services provided by Stripe.
+**The Stripe Services Agreement.** Payment processing services for providers on Go-Kart Hippo are provided by Stripe and are subject to the [Stripe Connected Account Agreement](https://stripe.com/connect-account/legal), which includes the [Stripe Terms of Service](https://stripe.com/legal/ssa) (collectively, the "Stripe Services Agreement"). By agreeing to these Terms or continuing to operate as a provider on Go-Kart Hippo, you agree to be bound by the Stripe Services Agreement, as the same may be modified by Stripe from time to time. As a condition of Go-Kart Hippo enabling payment processing services through Stripe, you agree to provide Go-Kart Hippo accurate and complete information about you and your business, and you authorize Go-Kart Hippo to share it and transaction information related to your use of the payment processing services provided by Stripe.
 
 You are responsible for any taxes you owe on your income. Go-Kart Hippo does not provide tax advice or tax forms.
 

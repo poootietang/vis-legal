@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** October 4, 2026
+**Last updated:** October 5, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 
@@ -10,7 +10,7 @@ If anything in this policy is unclear, you can reach us at **support@yetzerinves
 
 Go-Kart Hippo is a scheduling and billing app for independent service professionals. The person using the app — the "provider" — runs their own business and uses Go-Kart Hippo to track clients, appointments, and payments.
 
-A client appears in a provider's data because the provider added them. Separately, clients can hold their own Go-Kart Hippo account, sign in, and see the visits, documents and balances their provider shares with them. A client's account shows only what her own providers have shared.
+A client appears in a provider's data because the provider added them. Separately, clients can hold their own Go-Kart Hippo account, sign in, and see the visits, documents and balances their provider shares with them. A client's account shows only what her own providers have shared. A client's account also holds what she saves in it: the payment apps she adds (Venmo, Cash App, Zelle or PayPal), so a provider can ask to be paid there, which only that provider sees, and the names she gives her places.
 
 ## What information we collect
 
@@ -85,7 +85,7 @@ We keep your account data for as long as your account is active.
 If you delete your account, your data enters a 7-day cool-down period during which you can cancel the deletion. After 7 days:
 
 - **A provider account:** all of your provider account data, client records, appointments, invoices and notes are permanently deleted from our database, and your uploaded photos are permanently deleted from our file storage as well as from the database.
-- **A client account:** your sign-in, your email address, your connections to your providers and the updates they have shared with you are permanently deleted from our database. Your providers keep their own records of the work they did for you; those records are theirs and are covered by the provider sections of this policy.
+- **A client account:** your sign-in, your email address, your connections to your providers, the updates they have shared with you, and everything you saved in your account (your payment apps and the names you gave your places) are permanently deleted from our database. Your providers keep their own records of the work they did for you; those records are theirs and are covered by the provider sections of this policy.
 
 Backups containing your data are rotated within the timeframe specified by our hosting provider's policies.
 

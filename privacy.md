@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** October 5, 2026
+**Last updated:** October 8, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 
@@ -11,6 +11,8 @@ If anything in this policy is unclear, you can reach us at **support@yetzerinves
 Go-Kart Hippo is a scheduling and billing app for independent service professionals. The person using the app — the "provider" — runs their own business and uses Go-Kart Hippo to track clients, appointments, and payments.
 
 A client appears in a provider's data because the provider added them. Separately, clients can hold their own Go-Kart Hippo account, sign in, and see the visits, documents and balances their provider shares with them. A client's account shows only what her own providers have shared. A client's account also holds what she saves in it: the payment apps she adds (Venmo, Cash App, Zelle or PayPal), so a provider can ask to be paid there, which only that provider sees, and the names she gives her places.
+
+A record that a provider removed one of your places: which provider, and when. Never the address.
 
 ## What information we collect
 

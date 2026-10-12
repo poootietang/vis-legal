@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** October 8, 2026
+**Last updated:** October 12, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 
@@ -36,7 +36,7 @@ When you choose to send one, Go-Kart Hippo emails the recipient on your behalf �
 **Information from your device.** When you use certain features:
 - **Location** — Go-Kart Hippo uses your phone's location to give you driving directions to a client's address, and, when you tap Send ETA, to work out when you'll arrive so you can text that time to your client from your own phone. For the arrival time, your position at that moment is sent through our server to Google, which calculates one driving route. We do not store your position or keep a log of it. When you take a card payment in person with Tap to Pay on iPhone, Stripe's payment software on your phone reads your location during the payment, because Stripe needs to know where a payment happens to reduce fraud and disputes and turns in-person payments off when it can't. That location goes to Stripe, not to us.
 - **Photos** — Go-Kart Hippo asks for permission to access your photo library only when you tap to set a profile picture. The photo you select is uploaded to our storage so it appears on your account.
-- **Face ID / Touch ID** — Go-Kart Hippo asks for biometric permission only to unlock client notes you have chosen to lock. The biometric check happens on your device; we never receive your biometric data.
+- **Face ID / Touch ID** — Go-Kart Hippo asks for biometric permission only if you turn on App lock, an optional switch in Settings → Account. With App lock on, Face ID or Touch ID (or your phone's passcode) opens the app. The check happens on your device; we never receive or store your biometric data. The only thing we keep is whether App lock is on, saved with your account so it applies on each phone you sign in on.
 
 **Information collected automatically.** Go-Kart Hippo uses Sentry (sentry.io), a third-party crash-reporting service, to receive notifications when the app crashes or errors. Sentry receives technical information about the crash (device type, operating system version, the line of code that failed). We have configured Sentry to scrub IP addresses and to not associate crashes with your account email.
 

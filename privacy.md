@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** October 12, 2026
+**Last updated:** October 18, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 
@@ -38,6 +38,8 @@ When you choose to send one, Go-Kart Hippo emails the recipient on your behalf �
 - **Photos** — Go-Kart Hippo asks for permission to access your photo library only when you tap to set a profile picture. The photo you select is uploaded to our storage so it appears on your account.
 - **Face ID / Touch ID** — Go-Kart Hippo asks for biometric permission only if you turn on App lock, an optional switch in Settings → Account. With App lock on, Face ID or Touch ID (or your phone's passcode) opens the app. The check happens on your device; we never receive or store your biometric data. The only thing we keep is whether App lock is on, saved with your account so it applies on each phone you sign in on.
 
+**Ask Vis.** If you use Ask Vis, the assistant described under *Ask Vis* below, we keep a short record of that use. Your questions and Vis's answers are not among it.
+
 **Information collected automatically.** Go-Kart Hippo uses Sentry (sentry.io), a third-party crash-reporting service, to receive notifications when the app crashes or errors. Sentry receives technical information about the crash (device type, operating system version, the line of code that failed). We have configured Sentry to scrub IP addresses and to not associate crashes with your account email.
 
 ## How we use this information
@@ -47,6 +49,7 @@ We use the information to:
 - Sync your data across your devices when you sign in
 - Diagnose crashes and bugs through Sentry
 - Send you transactional messages tied to your account (such as deletion confirmations)
+- Answer your questions in Ask Vis, if you turn it on, and keep its daily and monthly limits
 
 We do not use your information for advertising. We do not profile you, build behavioral models, or sell your information to anyone, ever.
 
@@ -64,11 +67,37 @@ We share information only with the following service providers, and only to the 
 - Twilio (twilio.com) holds a phone number for a future feature. The app does not use it today, and no message has been sent through it.
 - Google (google.com) provides address autocomplete. When you type a client's street address, what you type is sent to Google Places to suggest and confirm it. This means a client's street address — typed by you, about a person who has not agreed to anything with Google — is sent to Google. Google also works out the arrival time when you tap Send ETA: your position at that moment and your client's address are sent to Google to calculate one driving route. We keep only Google's identifier for the address (a place ID), not your position or the route.
 - Resend (resend.com) delivers the emails you send to your clients.
+- Anthropic (anthropic.com) writes Vis's answers when you use Ask Vis. What it receives is described under *Ask Vis* below.
 - Stripe (stripe.com) processes subscription payments and gift purchases. If you set up a payout account so clients can pay you through Go-Kart Hippo, you enter your identity and bank details into Stripe's own form; those details go to Stripe and not to us, and we store only your bank's name and the last four digits of the account. When the client-payment feature is switched on, a client paying one of your bills will enter their card details directly with Stripe — we will never see or hold them. That feature is built but not yet reachable by clients; no client has paid through it.
 
 When you tap a payment-request button in Go-Kart Hippo to send a Venmo, Cash App, Zelle, or PayPal payment link to your client, the relevant payment app opens with the request pre-filled. Go-Kart Hippo does not process the payment, does not see the payment confirmation, and does not share information with these payment services beyond what's contained in the link you send.
 
 We may disclose information if required by law (a valid subpoena, court order, or equivalent), or to protect our legal rights. If this happens and we are not legally prohibited from telling you, we will.
+
+## Ask Vis
+
+Ask Vis is an optional assistant for providers on the Premium plan. It answers questions about your own visits, clients and money. It can also suggest a change — marking a visit paid, moving or cancelling a visit, adding a note, or changing a price — and the change happens only if you confirm it.
+
+**Nothing is sent until you agree.** The first time you open Ask Vis, it shows what is sent and asks for your consent. You can withdraw your consent at any time in Settings → Vis, and nothing more is sent after that. If what is sent, who receives it, or how long they keep it changes, Ask Vis asks you again.
+
+**What is sent, and to whom.** When you ask a question, our server sends it to Anthropic, which runs the Claude models that write Vis's answers. Along with your question it sends:
+- your earlier questions and Vis's answers from the conversation that is open now — nothing from earlier conversations;
+- today's date and your time zone;
+- only the records needed to answer, such as client names, visit dates and times, prices, whether a visit is paid, monthly totals, and the open times in your schedule.
+
+Notes you wrote about a client are sent only when you ask about notes, and gate, alarm and lockbox codes in them are hidden unless you ask for a code. Your clients' phone numbers, email addresses and street addresses are not sent.
+
+**What Anthropic does with it.** Anthropic does not use it to train its models. Under Anthropic's standard terms it may keep it for up to 30 days and then deletes it. We have asked Anthropic not to keep it at all; if that is granted, we will update this policy and ask for your consent again.
+
+**Asking by voice.** On iPhone you can speak a question instead of typing it. Your iPhone turns your speech into text on the device. No audio is sent to us or to Anthropic — only the text, when you send the question.
+
+**What we keep.** We do not store your questions or Vis's answers. The conversation stays on your phone and is cleared when you close it. We keep:
+- each time you give or withdraw consent, with the terms in force at that moment;
+- for each question, the day you asked it, whether it was answered, how many steps it took and what it cost, so we can keep the daily and monthly limits;
+- your Helpful or Not helpful rating, if you give one;
+- for each change you confirm, what it changed and what it was before, so you can undo it from Activity for 24 hours.
+
+These records are kept while your account is active and are deleted with it.
 
 ## Text messages to your clients
 
@@ -86,7 +115,7 @@ We keep your account data for as long as your account is active.
 
 If you delete your account, your data enters a 7-day cool-down period during which you can cancel the deletion. After 7 days:
 
-- **A provider account:** all of your provider account data, client records, appointments, invoices and notes are permanently deleted from our database, and your uploaded photos are permanently deleted from our file storage as well as from the database.
+- **A provider account:** all of your provider account data, client records, appointments, invoices, notes and Ask Vis records are permanently deleted from our database, and your uploaded photos are permanently deleted from our file storage as well as from the database.
 - **A client account:** your sign-in, your email address, your connections to your providers, the updates they have shared with you, and everything you saved in your account (your payment apps and the names you gave your places) are permanently deleted from our database. Your providers keep their own records of the work they did for you; those records are theirs and are covered by the provider sections of this policy.
 
 Backups containing your data are rotated within the timeframe specified by our hosting provider's policies.
@@ -137,7 +166,7 @@ If you are in the EU, UK, or EEA, the General Data Protection Regulation (GDPR) 
 - **Object** to certain types of processing
 - **Lodge a complaint** with your local data protection authority
 
-The legal bases on which we process your data are: your consent (for optional features like Sentry crash reporting), the performance of a contract (operating the app you signed up for), and our legitimate interests (security, fraud prevention).
+The legal bases on which we process your data are: your consent (for optional features like Sentry crash reporting and Ask Vis), the performance of a contract (operating the app you signed up for), and our legitimate interests (security, fraud prevention).
 
 To exercise any of these rights, email **support@yetzerinvestmentgroup.com**. We will respond within 30 days.
 

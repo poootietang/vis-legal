@@ -68,6 +68,7 @@ We share information only with the following service providers, and only to the 
 - Google (google.com) provides address autocomplete. When you type a client's street address, what you type is sent to Google Places to suggest and confirm it. This means a client's street address — typed by you, about a person who has not agreed to anything with Google — is sent to Google. Google also works out the arrival time when you tap Send ETA: your position at that moment and your client's address are sent to Google to calculate one driving route. We keep only Google's identifier for the address (a place ID), not your position or the route.
 - Resend (resend.com) delivers the emails you send to your clients.
 - Anthropic (anthropic.com) writes Vis's answers when you use Ask Vis. What it receives is described under *Ask Vis* below.
+- ElevenLabs (elevenlabs.io) turns Vis's answers into speech when you turn on Vis's voice. What it receives is described under *Ask Vis* below.
 - Stripe (stripe.com) processes subscription payments and gift purchases. If you set up a payout account so clients can pay you through Go-Kart Hippo, you enter your identity and bank details into Stripe's own form; those details go to Stripe and not to us, and we store only your bank's name and the last four digits of the account. When the client-payment feature is switched on, a client paying one of your bills will enter their card details directly with Stripe — we will never see or hold them. That feature is built but not yet reachable by clients; no client has paid through it.
 
 When you tap a payment-request button in Go-Kart Hippo to send a Venmo, Cash App, Zelle, or PayPal payment link to your client, the relevant payment app opens with the request pre-filled. Go-Kart Hippo does not process the payment, does not see the payment confirmation, and does not share information with these payment services beyond what's contained in the link you send.
@@ -85,16 +86,21 @@ Ask Vis is an optional assistant for providers on the Premium plan. It answers q
 - today's date and your time zone;
 - only the records needed to answer, such as client names, visit dates and times, prices, whether a visit is paid, monthly totals, and the open times in your schedule.
 
-Notes you wrote about a client are sent only when you ask about notes, and gate, alarm and lockbox codes in them are hidden unless you ask for a code. Your clients' phone numbers, email addresses and street addresses are not sent.
+Notes you wrote about a client are sent only when you ask about notes, or ask what you should know about a client, and gate, alarm and lockbox codes in them are hidden unless you ask for a code. Your clients' phone numbers, email addresses and street addresses are not sent.
 
 **What Anthropic does with it.** Anthropic does not use it to train its models. Under Anthropic's standard terms it may keep it for up to 30 days and then deletes it. We have asked Anthropic not to keep it at all; if that is granted, we will update this policy and ask for your consent again.
 
 **Asking by voice.** On iPhone you can speak a question instead of typing it. Your iPhone turns your speech into text on the device. No audio is sent to us or to Anthropic — only the text, when you send the question.
 
+**Vis's voice.** In the web app, Vis's answers can be read aloud. The voice is off until you turn it on with the speaker button in the conversation, and that choice is kept on the device you made it on. When it is on, our server sends the text of each answer to ElevenLabs, which turns it into speech. Only the answer's text is sent — not your question and not your records — though an answer can name a client, a date or an amount. Before the text is sent, our server removes street numbers, apartment numbers and postcodes, phone numbers, email addresses, web links, payment handles such as @names and $cashtags, and long numbers such as card or account numbers, so Vis never reads out a full address, a phone number or payment details. Nothing is sent to ElevenLabs while the voice is off. The consent sheet names ElevenLabs; if you agreed to Ask Vis before the voice was added, Ask Vis asked you again.
+
+**What ElevenLabs does with it.** ElevenLabs does not use it to train its models: our account's training setting is switched off. ElevenLabs keeps a copy of each spoken answer in our account until it is deleted, and we delete each one right after Vis has spoken it. If a deletion does not go through at once, our server tries again every few minutes, and Vis stops reading answers aloud for everyone if a copy is still held after 15 minutes.
+
 **What we keep.** We do not store your questions or Vis's answers. The conversation stays on your phone and is cleared when you close it. We keep:
 - each time you give or withdraw consent, with the terms in force at that moment;
 - for each question, the day you asked it, whether it was answered, how many steps it took and what it cost, so we can keep the daily and monthly limits;
 - your Helpful or Not helpful rating, if you give one;
+- for each answer read aloud, how many characters were sent, what it cost, and whether its copy at ElevenLabs was deleted;
 - for each change you confirm, what it changed and what it was before, so you can undo it from Activity for 24 hours.
 
 These records are kept while your account is active and are deleted with it.

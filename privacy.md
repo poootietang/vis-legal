@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** October 18, 2026
+**Last updated:** October 20, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 
@@ -77,7 +77,7 @@ We may disclose information if required by law (a valid subpoena, court order, o
 
 ## Ask Vis
 
-Ask Vis is an optional assistant for providers on the Premium plan. It answers questions about your own visits, clients and money. It can also suggest a change — marking a visit paid, moving or cancelling a visit, adding a note, or changing a price — and the change happens only if you confirm it.
+Ask Vis is an optional assistant for providers on the Premium plan. It answers questions about your own visits, clients and money. It can also suggest a change — booking a visit, adding a client, marking a visit paid, moving or cancelling a visit, adding a note, or changing a price — and the change happens only if you confirm it.
 
 **Nothing is sent until you agree.** The first time you open Ask Vis, it shows what is sent and asks for your consent. You can withdraw your consent at any time in Settings → Vis, and nothing more is sent after that. If what is sent, who receives it, or how long they keep it changes, Ask Vis asks you again.
 
@@ -86,7 +86,7 @@ Ask Vis is an optional assistant for providers on the Premium plan. It answers q
 - today's date and your time zone;
 - only the records needed to answer, such as client names, visit dates and times, prices, whether a visit is paid, monthly totals, and the open times in your schedule.
 
-Notes you wrote about a client are sent only when you ask about notes, or ask what you should know about a client, and gate, alarm and lockbox codes in them are hidden unless you ask for a code. Your clients' phone numbers, email addresses and street addresses are not sent.
+Notes you wrote about a client are sent only when you ask about notes, or ask what you should know about a client, and gate, alarm and lockbox codes in them are hidden unless you ask for a code. Vis doesn't read your clients' phone numbers, email addresses or street addresses from your records. If you give Vis a phone number or an address — to add a client or book a visit — it is sent with your question, so Vis can fill in the card you confirm.
 
 **What Anthropic does with it.** Anthropic does not use it to train its models. Under Anthropic's standard terms it may keep it for up to 30 days and then deletes it. We have asked Anthropic not to keep it at all; if that is granted, we will update this policy and ask for your consent again.
 

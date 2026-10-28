@@ -1,6 +1,6 @@
 # Go-Kart Hippo Terms of Service
 
-**Last updated:** October 4, 2026
+**Last updated:** October 28, 2026
 
 These Terms of Service ("Terms") govern your use of the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"), operated by YETZER Investment Group LLC ("we," "us," or "our"). By creating an account or using Go-Kart Hippo, you agree to these Terms. If you do not agree, do not use the app.
 
@@ -28,7 +28,7 @@ You may close your account at any time from inside the app. Account deletion is 
 
 ## Your responsibility for client data
 
-When you use Go-Kart Hippo, you enter information about your own clients — their names, phone numbers, email addresses, physical addresses, and notes you write about them. **This is third-party personal information, and you are solely responsible for it.**
+When you use Go-Kart Hippo, you enter information about your own clients: their names, phone numbers, email addresses, physical addresses, and notes you write about them. **This is third-party personal information, and you are solely responsible for it.**
 
 Specifically, you agree that:
 
@@ -61,11 +61,13 @@ We may suspend or terminate your account if we believe you have violated these r
 
 You can use Go-Kart Hippo without a paid plan, and there are one or more paid subscription tiers. Using it without a plan costs no subscription fee, but card and bank payments your clients make to you carry a 3% fee while you have no plan; see "Payments to you and your clients" below.
 
-**Where you subscribed decides who bills you and where you cancel.** The two are separate: a subscription bought on one cannot be changed or cancelled from the other, and the website will not sell you a second subscription while one is already live — it refuses before any money moves.
+**Where you subscribed decides who bills you and where you cancel.** The two are separate: a subscription bought on one cannot be changed or cancelled from the other, and the website will not sell you a second subscription while one is already live. It refuses before any money moves.
 
-**If you subscribed on an iPhone, inside the app.** Your subscription is purchased through the Apple App Store and billed by Apple under your App Store account; RevenueCat receives the purchase and subscription events on our behalf. You can view, change, or cancel it in your Apple account settings — on your iPhone: Settings, then your name, then Subscriptions. Refunds are handled by Apple under its own policies; we cannot refund an App Store purchase.
+**If you subscribed on an iPhone, inside the app.** Your subscription is purchased through the Apple App Store and billed by Apple under your App Store account; RevenueCat receives the purchase and subscription events on our behalf. You can view, change, or cancel it in your Apple account settings. On your iPhone: Settings, then your name, then Subscriptions. Refunds are handled by Apple under its own policies; we cannot refund an App Store purchase.
 
-**If you subscribed on the website.** Your subscription is purchased and billed by Stripe, and Apple is not involved. You turn off renewal on the website, on your plan screen: nothing stops that day, you keep the plan through the day you have paid for, and nothing further is charged. Apple cannot refund a website subscription — only we can. Write to us at support@yetzerinvestmentgroup.com.
+**If you use the Android app.** Plans are not sold inside the Android app, so Google Play does not bill you for one. You can subscribe on the website, and the next paragraph applies.
+
+**If you subscribed on the website.** Your subscription is purchased and billed by Stripe, and Apple is not involved. You turn off renewal on the website, on your plan screen: nothing stops that day, you keep the plan through the day you have paid for, and nothing further is charged. Apple cannot refund a website subscription; only we can. Write to us at support@yetzerinvestmentgroup.com.
 
 Any paid feature is subject to the terms presented at the time of purchase.
 
@@ -73,7 +75,7 @@ Any paid feature is subject to the terms presented at the time of purchase.
 
 **Payment-request links.** Go-Kart Hippo generates payment-request links you send to your clients through external services (Venmo, Cash App, Zelle, PayPal). When your client taps one, the relevant external app opens with the request pre-filled. Those payments happen entirely inside the external service; we do not process them, do not hold the funds, and do not guarantee that any client will pay.
 
-**Card and bank payments.** If you connect a Stripe account in Settings, your clients can pay you by card or bank: from a bill on their client page, through a payment link you send them, or in person with Tap to Pay on iPhone. Each payment is processed by Stripe as a charge on your own connected Stripe account, with you as the merchant of record, and Stripe pays it out to your bank. Go-Kart Hippo never holds the money.
+**Card and bank payments.** If you connect a Stripe account in Settings, your clients can pay you by card or bank: from a bill on their client page, through a payment link you send them, or in person with Tap to Pay on iPhone. A client can also save a card or bank account to the Wallet in her own account, in Stripe's own form, and use it for your next bill or turn on automatic payment of your bills. Each payment is processed by Stripe as a charge on your own connected Stripe account, with you as the merchant of record, and Stripe pays it out to your bank. Go-Kart Hippo never holds the money.
 
 **What a card or bank payment costs.** Your client pays a small processing fee on top of your bill, shown to them before they pay. That fee covers Stripe's own fee, so your bill reaches your Stripe account whole. If you do not have a paid plan when the payment is made, Go-Kart Hippo keeps 3% of the bill, taken out of the payment before it reaches your bank: on a $200.00 bill, $6.00. On Pro and Premium we keep nothing. The plan you have at the moment your client pays decides which applies, not the plan you had when you sent the bill.
 
@@ -87,7 +89,7 @@ You are responsible for any taxes you owe on your income. Go-Kart Hippo does not
 
 The Go-Kart Hippo app, including its code, design, branding, and content, is owned by YETZER Investment Group LLC and protected by copyright, trademark, and other intellectual-property laws. We grant you a limited, non-exclusive, non-transferable, revocable license to use the app for your own business purposes while these Terms remain in effect. You may not copy, modify, distribute, sell, or sublicense any part of the app without our written permission.
 
-The information you enter into Go-Kart Hippo — your clients, your appointments, your notes — remains yours. You grant us a limited license to store, process, and display that information solely to operate the app for you.
+The information you enter into Go-Kart Hippo (your clients, your appointments, your notes) remains yours. You grant us a limited license to store, process, and display that information solely to operate the app for you.
 
 ## Third-party services
 
@@ -96,13 +98,13 @@ Go-Kart Hippo uses third-party services to operate, including:
 - **Supabase** for database and storage hosting
 - **Sentry** for crash reporting
 - **Venmo, Cash App, Zelle, and PayPal** for payment requests (when you tap a payment-request button)
-- Apple — bills and manages paid subscriptions bought on an iPhone, through the App Store
-- Stripe — processes the card and bank payments your clients make to you, bills and manages paid subscriptions bought on the website, and processes gift purchases
-- RevenueCat — manages subscription state and receives purchase events for the iPhone route only; it is not involved in a website subscription
-- Cloudflare — hosts the web app and the client-facing booking pages
-- Twilio — holds a phone number for a future feature; the app does not use it today, and no message has been sent through it
-- Resend — delivers the emails you send to your clients
-- Google — provides address autocomplete when you type a client's street address
+- Apple: bills and manages paid subscriptions bought on an iPhone, through the App Store
+- Stripe: processes the card and bank payments your clients make to you, bills and manages paid subscriptions bought on the website, and processes gift purchases
+- RevenueCat: manages subscription state and receives purchase events for the iPhone route only; it is not involved in a website subscription
+- Cloudflare: hosts the web app and the client-facing booking pages
+- Twilio: holds a phone number for a future feature; the app does not use it today, and no message has been sent through it
+- Resend: delivers the emails you send to your clients
+- Google: provides address autocomplete when you type a client's street address
 
 Each third-party service has its own terms and privacy practices. We are not responsible for their conduct or for any harm caused by their services. Your use of those services is subject to their own terms.
 
@@ -137,7 +139,7 @@ We reserve the right to assume the exclusive defense of any matter for which you
 
 **Please read this section carefully. It affects your legal rights.**
 
-Any dispute, claim, or controversy arising out of or related to these Terms or your use of Go-Kart Hippo — whether based in contract, tort, statute, fraud, misrepresentation, or any other legal theory — will be resolved exclusively through **binding individual arbitration** rather than in court.
+Any dispute, claim, or controversy arising out of or related to these Terms or your use of Go-Kart Hippo, whether based in contract, tort, statute, fraud, misrepresentation, or any other legal theory, will be resolved exclusively through **binding individual arbitration** rather than in court.
 
 Arbitration will be administered by the American Arbitration Association (AAA) under its Consumer Arbitration Rules, in effect at the time the arbitration is started. The arbitration will be held in Florida or, at your election, by remote means. The arbitrator's decision will be final and binding on both parties.
 

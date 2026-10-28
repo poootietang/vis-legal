@@ -36,9 +36,9 @@ When you choose to send one, Go-Kart Hippo emails the recipient on your behalf �
 **Information from your device.** When you use certain features:
 - **Location** — Go-Kart Hippo uses your phone's location to give you driving directions to a client's address, and, when you tap Send ETA, to work out when you'll arrive so you can text that time to your client from your own phone. For the arrival time, your position at that moment is sent through our server to Google, which calculates one driving route. We do not store your position or keep a log of it. When you take a card payment in person with Tap to Pay on iPhone, Stripe's payment software on your phone reads your location during the payment, because Stripe needs to know where a payment happens to reduce fraud and disputes and turns in-person payments off when it can't. That location goes to Stripe, not to us.
 - **Photos** — Go-Kart Hippo asks for permission to access your photo library only when you tap to set a profile picture. The photo you select is uploaded to our storage so it appears on your account.
-- **Face ID / Touch ID** — Go-Kart Hippo asks for biometric permission only if you turn on App lock, an optional switch in Settings → Account. With App lock on, Face ID or Touch ID (or your phone's passcode) opens the app. The check happens on your device; we never receive or store your biometric data. The only thing we keep is whether App lock is on, saved with your account so it applies on each phone you sign in on.
-- **Contacts.** When you invite someone, you can pick them from your phone's contacts. Only the one phone number or email you pick is sent to us and saved with the invite. Go-Kart Hippo never reads your address book.
-- **Notifications.** If you allow them, your phone gives us a notification address (a push token). We keep it with your account to send the notifications you've switched on, through Expo and Apple's notification service.
+- **Face ID / Touch ID, or fingerprint and face unlock on Android.** Go-Kart Hippo uses these only if you turn on App lock, an optional switch in Settings → Account. On an iPhone, it asks for biometric permission then. On an Android phone, there is no separate permission to grant. With App lock on, Face ID or Touch ID (or your phone's passcode) opens the app on an iPhone, and your fingerprint or face (or your phone's PIN, pattern or password) opens it on an Android phone. The check happens on your device; we never receive or store your biometric data. The only thing we keep is whether App lock is on, saved with your account so it applies on each phone you sign in on.
+- **Contacts.** On an iPhone, when you invite someone, you can pick them from your phone's contacts. Only the one phone number or email you pick is sent to us and saved with the invite. Go-Kart Hippo never reads your address book. The Android app does not use your contacts.
+- **Notifications.** If you allow them, your phone gives us a notification address (a push token). We keep it with your account to send the notifications you've switched on, through Expo and then Apple's notification service on an iPhone, or Google's Firebase Cloud Messaging on an Android phone.
 
 **Ask Vis.** If you use Ask Vis, the assistant described under *Ask Vis* below, we keep a short record of that use. Your questions and Vis's answers are not among it.
 
@@ -64,10 +64,11 @@ We share information only with the following service providers, and only to the 
 - **Supabase** (supabase.com) hosts our database and storage. Your provider account data and the client data you enter is stored there.
 - **Sentry** (sentry.io) receives crash reports as described above.
 - Apple (apple.com) bills and manages paid subscriptions bought on an iPhone, through the App Store. Apple receives your purchase and subscription status. If you subscribed on the website, Apple is not involved and receives nothing.
+- Google Play (play.google.com) is where you get the Android app. Plans are not sold inside the Android app, so Google Play does not bill you for one. On Android, you subscribe on the website.
 - RevenueCat (revenuecat.com) manages subscription state for subscriptions bought on an iPhone, and receives purchase events. It is not involved in a website subscription. Your device contacts RevenueCat whenever you are signed in on a phone — not only when you buy — and sends an app-user identifier tied to your account. That identifier is a token created for this purpose and is not your account's own identifier.
 - Cloudflare (cloudflare.com) hosts the web app and the client-facing booking pages, and therefore handles connection data such as IP addresses for anyone who opens a booking link.
 - Twilio (twilio.com) holds a phone number for a future feature. The app does not use it today, and no message has been sent through it.
-- Google (google.com) provides address autocomplete. When you type a client's street address, what you type is sent to Google Places to suggest and confirm it. This means a client's street address — typed by you, about a person who has not agreed to anything with Google — is sent to Google. Google also works out the arrival time when you tap Send ETA: your position at that moment and your client's address are sent to Google to calculate one driving route. We keep only Google's identifier for the address (a place ID), not your position or the route.
+- Google (google.com) provides address autocomplete. When you type a client's street address, what you type is sent to Google Places to suggest and confirm it. This means a client's street address (typed by you, about a person who has not agreed to anything with Google) is sent to Google. Google also works out the arrival time when you tap Send ETA: your position at that moment and your client's address are sent to Google to calculate one driving route. We keep only Google's identifier for the address (a place ID), not your position or the route. On an Android phone, Google's Firebase Cloud Messaging also delivers the notifications you've switched on.
 - Resend (resend.com) delivers the emails you send to your clients.
 - Anthropic (anthropic.com) writes Vis's answers when you use Ask Vis. What it receives is described under *Ask Vis* below.
 - ElevenLabs (elevenlabs.io) turns Vis's answers into speech when you turn on Vis's voice. What it receives is described under *Ask Vis* below.
@@ -92,9 +93,9 @@ Notes you wrote about a client are sent only when you ask about notes, or ask wh
 
 **What Anthropic does with it.** Anthropic does not use it to train its models. Under Anthropic's standard terms it may keep it for up to 30 days and then deletes it. We have asked Anthropic not to keep it at all; if that is granted, we will update this policy and ask for your consent again.
 
-**Asking by voice.** On iPhone you can speak a question instead of typing it. Your iPhone turns your speech into text on the device. No audio is sent to us or to Anthropic — only the text, when you send the question.
+**Asking by voice.** On iPhone you can speak a question instead of typing it. Your iPhone turns your speech into text on the device. No audio is sent to us or to Anthropic: only the text, when you send the question. The Android app does not use the microphone, so on Android you type your questions.
 
-**Vis's voice.** In the web app, Vis's answers can be read aloud. The voice is off until you turn it on with the speaker button in the conversation, and that choice is kept on the device you made it on. When it is on, our server sends the text of each answer to ElevenLabs, which turns it into speech. Only the answer's text is sent — not your question and not your records — though an answer can name a client, a date or an amount. Before the text is sent, our server removes street numbers, apartment numbers and postcodes, phone numbers, email addresses, web links, payment handles such as @names and $cashtags, and long numbers such as card or account numbers, so Vis never reads out a full address, a phone number or payment details. Nothing is sent to ElevenLabs while the voice is off. The consent sheet names ElevenLabs; if you agreed to Ask Vis before the voice was added, Ask Vis asked you again.
+**Vis's voice.** In the web app, Vis's answers can be read aloud. The Android app does not read answers aloud. The voice is off until you turn it on with the speaker button in the conversation, and that choice is kept on the device you made it on. When it is on, our server sends the text of each answer to ElevenLabs, which turns it into speech. Only the answer's text is sent (not your question and not your records), though an answer can name a client, a date or an amount. Before the text is sent, our server removes street numbers, apartment numbers and postcodes, phone numbers, email addresses, web links, payment handles such as @names and $cashtags, and long numbers such as card or account numbers, so Vis never reads out a full address, a phone number or payment details. Nothing is sent to ElevenLabs while the voice is off. The consent sheet names ElevenLabs; if you agreed to Ask Vis before the voice was added, Ask Vis asked you again.
 
 **What ElevenLabs does with it.** ElevenLabs does not use it to train its models: our account's training setting is switched off. ElevenLabs keeps a copy of each spoken answer in our account until it is deleted, and we delete each one right after Vis has spoken it. If a deletion does not go through at once, our server tries again every few minutes, and Vis stops reading answers aloud for everyone if a copy is still held after 15 minutes.
 
@@ -141,9 +142,11 @@ You can delete your account from inside Go-Kart Hippo.
 
 **If you hold a client account:**
 
-1. On **Your providers**, tap the gear to open **Your account**
+1. Open the **Account** tab
 2. Tap **Delete account** and type DELETE to confirm
 3. Your account is scheduled for deletion in 7 days, during which you can cancel with **Cancel deletion** on the same screen
+
+If your account also holds a business, you delete it from the business side, with the provider steps above.
 
 If you cannot access the app for some reason, email **support@yetzerinvestmentgroup.com** with the subject line "Delete my account" from the email address tied to your account, and we will process the deletion manually within 30 days.
 
@@ -174,7 +177,7 @@ If you are in the EU, UK, or EEA, the General Data Protection Regulation (GDPR) 
 - **Object** to certain types of processing
 - **Lodge a complaint** with your local data protection authority
 
-The legal bases on which we process your data are: your consent (for optional features like Sentry crash reporting and Ask Vis), the performance of a contract (operating the app you signed up for), and our legitimate interests (security, fraud prevention).
+The legal bases on which we process your data are: your consent (for optional features like Ask Vis), the performance of a contract (operating the app you signed up for), and our legitimate interests (security, fraud prevention, and Sentry crash reporting, so we can find and fix what breaks).
 
 To exercise any of these rights, email **support@yetzerinvestmentgroup.com**. We will respond within 30 days.
 

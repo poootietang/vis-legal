@@ -1,6 +1,6 @@
 # Go-Kart Hippo Terms of Service
 
-**Last updated:** October 4, 2026
+**Last updated:** October 28, 2026
 
 These Terms of Service ("Terms") govern your use of the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"), operated by YETZER Investment Group LLC ("we," "us," or "our"). By creating an account or using Go-Kart Hippo, you agree to these Terms. If you do not agree, do not use the app.
 
@@ -64,6 +64,8 @@ You can use Go-Kart Hippo without a paid plan, and there are one or more paid su
 **Where you subscribed decides who bills you and where you cancel.** The two are separate: a subscription bought on one cannot be changed or cancelled from the other, and the website will not sell you a second subscription while one is already live — it refuses before any money moves.
 
 **If you subscribed on an iPhone, inside the app.** Your subscription is purchased through the Apple App Store and billed by Apple under your App Store account; RevenueCat receives the purchase and subscription events on our behalf. You can view, change, or cancel it in your Apple account settings — on your iPhone: Settings, then your name, then Subscriptions. Refunds are handled by Apple under its own policies; we cannot refund an App Store purchase.
+
+**If you use the Android app.** Plans are not sold inside the Android app, so Google Play does not bill you for one. You can subscribe on the website, and the next paragraph applies.
 
 **If you subscribed on the website.** Your subscription is purchased and billed by Stripe, and Apple is not involved. You turn off renewal on the website, on your plan screen: nothing stops that day, you keep the plan through the day you have paid for, and nothing further is charged. Apple cannot refund a website subscription — only we can. Write to us at support@yetzerinvestmentgroup.com.
 

@@ -8,11 +8,9 @@ If anything in this policy is unclear, you can reach us at **support@yetzerinves
 
 ## Who Go-Kart Hippo is for
 
-Go-Kart Hippo is a scheduling and billing app for independent service professionals. The person using the app — the "provider" — runs their own business and uses Go-Kart Hippo to track clients, appointments, and payments.
+Go-Kart Hippo is a scheduling and billing app for independent service professionals. The person using the app (the "provider") runs their own business and uses Go-Kart Hippo to track clients, appointments, and payments.
 
-A client appears in a provider's data because the provider added them. Separately, clients can hold their own Go-Kart Hippo account, sign in, and see the visits, documents and balances their provider shares with them. A client's account shows only what her own providers have shared. A client's account also holds what she saves in it: the payment apps she adds (Venmo, Cash App, Zelle or PayPal), so a provider can ask to be paid there, which only that provider sees, and the names she gives her places.
-
-A record that a provider removed one of your places: which provider, and when. Never the address.
+A client appears in a provider's data because the provider added them. Separately, clients can hold their own Go-Kart Hippo account, sign in, and see the visits, documents and balances their provider shares with them. A client's account shows only what her own providers have shared. A client's account also holds what she saves in it: the payment apps she adds (Venmo, Cash App, Zelle or PayPal), so a provider can ask to be paid there, which only that provider sees; the cards and bank accounts in her Wallet; and the names she gives her places. It also keeps a record that a provider removed one of her places: which provider, and when, never the address.
 
 ## What information we collect
 
@@ -21,7 +19,7 @@ A record that a provider removed one of your places: which provider, and when. N
 - Your business name and your name
 - Your timezone and working hours
 - An optional profile photo
-- Your payment handles (Venmo username, Cash App $cashtag, Zelle phone or email, PayPal handle) — used to generate payment-request links you send to your own clients
+- Your payment handles (Venmo username, Cash App $cashtag, Zelle phone or email, PayPal handle), used to generate payment-request links you send to your own clients
 
 **Information you create about your clients.** As you use Go-Kart Hippo, you enter information about the people you serve:
 - Their names, phone numbers, email addresses, and physical addresses
@@ -31,11 +29,11 @@ A record that a provider removed one of your places: which provider, and when. N
 
 You are responsible for the information you collect about your clients. Go-Kart Hippo stores this information so you can run your business.
 
-When you choose to send one, Go-Kart Hippo emails the recipient on your behalf — an invoice, an estimate, a receipt, or a note that a visit moved. The recipient doesn't need to already be a client of yours. We do not message anyone for our own purposes.
+When you choose to send one, Go-Kart Hippo emails the recipient on your behalf: an invoice, an estimate, a receipt, or a note that a visit moved. The recipient doesn't need to already be a client of yours. We do not message anyone for our own purposes.
 
 **Information from your device.** When you use certain features:
-- **Location** — Go-Kart Hippo uses your phone's location to give you driving directions to a client's address, and, when you tap Send ETA, to work out when you'll arrive so you can text that time to your client from your own phone. For the arrival time, your position at that moment is sent through our server to Google, which calculates one driving route. We do not store your position or keep a log of it. When you take a card payment in person with Tap to Pay on iPhone, Stripe's payment software on your phone reads your location during the payment, because Stripe needs to know where a payment happens to reduce fraud and disputes and turns in-person payments off when it can't. That location goes to Stripe, not to us.
-- **Photos** — Go-Kart Hippo asks for permission to access your photo library only when you tap to set a profile picture. The photo you select is uploaded to our storage so it appears on your account.
+- **Location.** Go-Kart Hippo uses your phone's location to give you driving directions to a client's address, and, when you tap Send ETA, to work out when you'll arrive so you can text that time to your client from your own phone. For the arrival time, your position at that moment is sent through our server to Google, which calculates one driving route. We do not store your position or keep a log of it. When you take a card payment in person with Tap to Pay on iPhone, Stripe's payment software on your phone reads your location during the payment, because Stripe needs to know where a payment happens to reduce fraud and disputes and turns in-person payments off when it can't. That location goes to Stripe, not to us.
+- **Photos.** Go-Kart Hippo asks for permission to access your photo library only when you tap to set a profile picture. The photo you select is uploaded to our storage so it appears on your account.
 - **Face ID / Touch ID, or fingerprint and face unlock on Android.** Go-Kart Hippo uses these only if you turn on App lock, an optional switch in Settings → Account. On an iPhone, it asks for biometric permission then. On an Android phone, there is no separate permission to grant. With App lock on, Face ID or Touch ID (or your phone's passcode) opens the app on an iPhone, and your fingerprint or face (or your phone's PIN, pattern or password) opens it on an Android phone. The check happens on your device; we never receive or store your biometric data. The only thing we keep is whether App lock is on, saved with your account so it applies on each phone you sign in on.
 - **Contacts.** On an iPhone, when you invite someone, you can pick them from your phone's contacts. Only the one phone number or email you pick is sent to us and saved with the invite. Go-Kart Hippo never reads your address book. The Android app does not use your contacts.
 - **Notifications.** If you allow them, your phone gives us a notification address (a push token). We keep it with your account to send the notifications you've switched on, through Expo and then Apple's notification service on an iPhone, or Google's Firebase Cloud Messaging on an Android phone.
@@ -64,15 +62,15 @@ We share information only with the following service providers, and only to the 
 - **Supabase** (supabase.com) hosts our database and storage. Your provider account data and the client data you enter is stored there.
 - **Sentry** (sentry.io) receives crash reports as described above.
 - Apple (apple.com) bills and manages paid subscriptions bought on an iPhone, through the App Store. Apple receives your purchase and subscription status. If you subscribed on the website, Apple is not involved and receives nothing.
-- Google Play (play.google.com) is where you get the Android app. Plans are not sold inside the Android app, so Google Play does not bill you for one. On Android, you subscribe on the website.
-- RevenueCat (revenuecat.com) manages subscription state for subscriptions bought on an iPhone, and receives purchase events. It is not involved in a website subscription. Your device contacts RevenueCat whenever you are signed in on a phone — not only when you buy — and sends an app-user identifier tied to your account. That identifier is a token created for this purpose and is not your account's own identifier.
+- Google Play (play.google.com) is where you get the Android app. Plans are not sold inside the Android app, so Google Play does not bill you for one.
+- RevenueCat (revenuecat.com) manages subscription state for subscriptions bought on an iPhone, and receives purchase events. It is not involved in a website subscription. Your device contacts RevenueCat whenever you are signed in on a phone (not only when you buy) and sends an app-user identifier tied to your account. That identifier is a token created for this purpose and is not your account's own identifier.
 - Cloudflare (cloudflare.com) hosts the web app and the client-facing booking pages, and therefore handles connection data such as IP addresses for anyone who opens a booking link.
 - Twilio (twilio.com) holds a phone number for a future feature. The app does not use it today, and no message has been sent through it.
 - Google (google.com) provides address autocomplete. When you type a client's street address, what you type is sent to Google Places to suggest and confirm it. This means a client's street address (typed by you, about a person who has not agreed to anything with Google) is sent to Google. Google also works out the arrival time when you tap Send ETA: your position at that moment and your client's address are sent to Google to calculate one driving route. We keep only Google's identifier for the address (a place ID), not your position or the route. On an Android phone, Google's Firebase Cloud Messaging also delivers the notifications you've switched on.
 - Resend (resend.com) delivers the emails you send to your clients.
 - Anthropic (anthropic.com) writes Vis's answers when you use Ask Vis. What it receives is described under *Ask Vis* below.
 - ElevenLabs (elevenlabs.io) turns Vis's answers into speech when you turn on Vis's voice. What it receives is described under *Ask Vis* below.
-- Stripe (stripe.com) processes subscription payments and gift purchases. If you set up a payout account so clients can pay you through Go-Kart Hippo, you enter your identity and bank details into Stripe's own form; those details go to Stripe and not to us, and we store only your bank's name and the last four digits of the account. When the client-payment feature is switched on, a client paying one of your bills will enter their card details directly with Stripe — we will never see or hold them. That feature is built but not yet reachable by clients; no client has paid through it.
+- Stripe (stripe.com) processes subscription payments and gift purchases. If you set up a payout account so clients can pay you through Go-Kart Hippo, you enter your identity and bank details into Stripe's own form; those details go to Stripe and not to us, and we store only your bank's name and the last four digits of the account. A client can pay your bills by card or bank account, and can save one to the Wallet in her account. She enters it in Stripe's own form inside the app, so the details go to Stripe and never to us. We keep only Stripe's reference to each card or bank account, which one she chose as her default, whether she turned on automatic payment, and when she agreed to save it. The brand and last four digits her Wallet shows are read from Stripe each time, not kept by us. When she pays a provider, Stripe keeps a copy on that provider's Stripe account, so his next bill can use it.
 
 When you tap a payment-request button in Go-Kart Hippo to send a Venmo, Cash App, Zelle, or PayPal payment link to your client, the relevant payment app opens with the request pre-filled. Go-Kart Hippo does not process the payment, does not see the payment confirmation, and does not share information with these payment services beyond what's contained in the link you send.
 
@@ -80,22 +78,22 @@ We may disclose information if required by law (a valid subpoena, court order, o
 
 ## Ask Vis
 
-Ask Vis is an optional assistant for providers on the Premium plan. It answers questions about your own visits, clients and money. It can also suggest a change — booking a visit, adding a client, marking a visit paid, moving or cancelling a visit, adding a note, or changing a price — and the change happens only if you confirm it.
+Ask Vis is an optional assistant for providers on the Premium plan. It answers questions about your own visits, clients and money. It can also suggest a change (booking a visit, adding a client, marking a visit paid, moving or cancelling a visit, adding a note, or changing a price), and the change happens only if you confirm it.
 
 **Nothing is sent until you agree.** The first time you open Ask Vis, it shows what is sent and asks for your consent. You can withdraw your consent at any time in Settings → Vis, and nothing more is sent after that. If what is sent, who receives it, or how long they keep it changes, Ask Vis asks you again.
 
 **What is sent, and to whom.** When you ask a question, our server sends it to Anthropic, which runs the Claude models that write Vis's answers. Along with your question it sends:
-- your earlier questions and Vis's answers from the conversation that is open now — nothing from earlier conversations;
+- your earlier questions and Vis's answers from the conversation that is open now, and nothing from earlier conversations;
 - today's date and your time zone;
 - only the records needed to answer, such as client names, visit dates and times, prices, whether a visit is paid, monthly totals, and the open times in your schedule.
 
-Notes you wrote about a client are sent only when you ask about notes, or ask what you should know about a client, and gate, alarm and lockbox codes in them are hidden unless you ask for a code. Vis doesn't read your clients' phone numbers, email addresses or street addresses from your records. If you give Vis a phone number or an address — to add a client or book a visit — it is sent with your question, so Vis can fill in the card you confirm.
+Notes you wrote about a client are sent only when you ask about notes, or ask what you should know about a client, and gate, alarm and lockbox codes in them are hidden unless you ask for a code. Vis doesn't read your clients' phone numbers, email addresses or street addresses from your records. If you give Vis a phone number or an address to add a client or book a visit, it is sent with your question, so Vis can fill in the card you confirm.
 
 **What Anthropic does with it.** Anthropic does not use it to train its models. Under Anthropic's standard terms it may keep it for up to 30 days and then deletes it. We have asked Anthropic not to keep it at all; if that is granted, we will update this policy and ask for your consent again.
 
 **Asking by voice.** On iPhone you can speak a question instead of typing it. Your iPhone turns your speech into text on the device. No audio is sent to us or to Anthropic: only the text, when you send the question. The Android app does not use the microphone, so on Android you type your questions.
 
-**Vis's voice.** In the web app, Vis's answers can be read aloud. The Android app does not read answers aloud. The voice is off until you turn it on with the speaker button in the conversation, and that choice is kept on the device you made it on. When it is on, our server sends the text of each answer to ElevenLabs, which turns it into speech. Only the answer's text is sent (not your question and not your records), though an answer can name a client, a date or an amount. Before the text is sent, our server removes street numbers, apartment numbers and postcodes, phone numbers, email addresses, web links, payment handles such as @names and $cashtags, and long numbers such as card or account numbers, so Vis never reads out a full address, a phone number or payment details. Nothing is sent to ElevenLabs while the voice is off. The consent sheet names ElevenLabs; if you agreed to Ask Vis before the voice was added, Ask Vis asked you again.
+**Vis's voice.** In the web app and on iPhone, Vis's answers can be read aloud. The Android app does not read answers aloud. The voice is off until you turn it on with the speaker button in the conversation, and that choice is kept on the device you made it on. When it is on, our server sends the text of each answer to ElevenLabs, which turns it into speech. Only the answer's text is sent (not your question and not your records), though an answer can name a client, a date or an amount. Before the text is sent, our server removes street numbers, apartment numbers and postcodes, phone numbers, email addresses, web links, payment handles such as @names and $cashtags, and long numbers such as card or account numbers, so Vis never reads out a full address, a phone number or payment details. Nothing is sent to ElevenLabs while the voice is off. The consent sheet names ElevenLabs; if you agreed to Ask Vis before the voice was added, Ask Vis asked you again.
 
 **What ElevenLabs does with it.** ElevenLabs does not use it to train its models: our account's training setting is switched off. ElevenLabs keeps a copy of each spoken answer in our account until it is deleted, and we delete each one right after Vis has spoken it. If a deletion does not go through at once, our server tries again every few minutes, and Vis stops reading answers aloud for everyone if a copy is still held after 15 minutes.
 
@@ -125,7 +123,7 @@ We keep your account data for as long as your account is active.
 If you delete your account, your data enters a 7-day cool-down period during which you can cancel the deletion. After 7 days:
 
 - **A provider account:** all of your provider account data, client records, appointments, invoices, notes and Ask Vis records are permanently deleted from our database, and your uploaded photos are permanently deleted from our file storage as well as from the database.
-- **A client account:** your sign-in, your email address, your connections to your providers, the updates they have shared with you, and everything you saved in your account (your payment apps and the names you gave your places) are permanently deleted from our database. Your providers keep their own records of the work they did for you; those records are theirs and are covered by the provider sections of this policy.
+- **A client account:** your sign-in, your email address, your connections to your providers, the updates they have shared with you, and everything you saved in your account (your payment apps, your Wallet and the names you gave your places) are permanently deleted from our database. Your cards and bank accounts are removed from Stripe first, including the copies on your providers' Stripe accounts. Your providers keep their own records of the work they did for you; those records are theirs and are covered by the provider sections of this policy.
 
 Backups containing your data are rotated within the timeframe specified by our hosting provider's policies.
 
@@ -161,7 +159,7 @@ If you are a California resident, the California Consumer Privacy Act (CCPA) giv
 - **Know** what personal information we have collected about you
 - **Delete** the personal information we have collected about you
 - **Correct** inaccurate personal information we hold about you
-- **Opt out** of the "sale" or "sharing" of your personal information — Go-Kart Hippo does not sell or share your personal information, so this right is automatic
+- **Opt out** of the "sale" or "sharing" of your personal information. Go-Kart Hippo does not sell or share your personal information, so this right is automatic
 
 To exercise these rights, email **support@yetzerinvestmentgroup.com**. We will respond within 45 days. We will not discriminate against you for exercising any of these rights.
 

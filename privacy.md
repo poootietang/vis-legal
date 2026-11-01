@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** October 28, 2026
+**Last updated:** November 1, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 

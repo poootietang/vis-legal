@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** November 1, 2026
+**Last updated:** November 7, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 
@@ -41,6 +41,8 @@ When you choose to send one, Go-Kart Hippo emails the recipient on your behalf: 
 **Ask Vis.** If you use Ask Vis, the assistant described under *Ask Vis* below, we keep a short record of that use. Your questions and Vis's answers are not among it.
 
 **Information collected automatically.** Go-Kart Hippo uses Sentry (sentry.io), a third-party crash-reporting service, to receive notifications when the app crashes or errors. Sentry receives technical information about the crash (device type, operating system version, the line of code that failed). Sentry does not receive your name or email address, and we do not link crashes to your account.
+
+**Our website.** Our website, gokarthippo.com, uses Cloudflare Web Analytics to count page visits and measure how quickly pages load. It sets no cookies and does not identify you or follow you across other websites.
 
 ## How we use this information
 

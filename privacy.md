@@ -1,6 +1,6 @@
 # Go-Kart Hippo Privacy Policy
 
-**Last updated:** November 8, 2026
+**Last updated:** November 9, 2026
 
 YETZER Investment Group LLC ("we," "us," or "our") operates the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"). This policy explains what information Go-Kart Hippo collects, how it's used, who it's shared with, and the choices you have over your data.
 
@@ -67,6 +67,7 @@ We share information only with the following service providers, and only to the 
 - Google Play (play.google.com) is where you get the Android app. Plans are not sold inside the Android app, so Google Play does not bill you for one.
 - RevenueCat (revenuecat.com) manages subscription state for subscriptions bought on an iPhone, and receives purchase events. It is not involved in a website subscription. Your device contacts RevenueCat whenever you are signed in on a phone (not only when you buy) and sends an app-user identifier tied to your account. That identifier is a token created for this purpose and is not your account's own identifier.
 - Cloudflare (cloudflare.com) hosts the web app and the client-facing booking pages, and therefore handles connection data such as IP addresses for anyone who opens a booking link.
+- When you sign in, sign up or reset your password, Cloudflare Turnstile checks that you are a person and not an automated program. It reads technical details of your connection and device, such as your IP address and browser details, not your name or email, and Cloudflare does not use them for advertising.
 - Twilio (twilio.com) holds a phone number for a future feature. The app does not use it today, and no message has been sent through it.
 - Google (google.com) provides address autocomplete. When you type a client's street address, what you type is sent to Google Places to suggest and confirm it. This means a client's street address (typed by you, about a person who has not agreed to anything with Google) is sent to Google. Google also works out the arrival time when you tap Send ETA: your position at that moment and your client's address are sent to Google to calculate one driving route. We keep only Google's identifier for the address (a place ID), not your position or the route. On an Android phone, Google's Firebase Cloud Messaging also delivers the notifications you've switched on.
 - Resend (resend.com) delivers the emails you send to your clients.

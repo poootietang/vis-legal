@@ -151,6 +151,25 @@ If your account also holds a business, you delete it from the business side, wit
 
 If you cannot access the app for some reason, email **support@yetzerinvestmentgroup.com** with the subject line "Delete my account" from the email address tied to your account, and we will process the deletion manually within 30 days.
 
+## How to delete some of your data
+
+You can delete some of your data without deleting your account, from inside Go-Kart Hippo.
+
+**If you hold a provider account:**
+
+- **A client:** open the client and tap **Delete Client**.
+- **A visit:** open the visit and tap **Delete**.
+- **A bill:** a bill you have not sent can be deleted with **Delete draft**. A bill you have already sent is voided rather than deleted, so a record of what your client received stays.
+- **A note:** open the client or the visit, clear the note, and save.
+- **Your profile photo:** open Settings, tap your business name, open your business, and tap **Remove photo**.
+- **Your payment apps** (Venmo, Cash App, Zelle, PayPal): open Settings, then **How clients pay**, and remove the one you want gone.
+- **Ask Vis:** open Settings, then **Vis**, and turn the switch off. This withdraws your consent at once, and nothing more is sent.
+
+**If you hold a client account:**
+
+- **A card or bank account in your Wallet:** open the **Account** tab, then **Wallet**, open the card or bank account, and tap **Remove this card** or **Remove this bank account**.
+- **Your payment apps for a provider:** open that provider, open your payment apps, and remove the one you want gone.
+
 ## Children's privacy
 
 Go-Kart Hippo is not designed for, marketed to, or intended for use by children under 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided personal information to Go-Kart Hippo, please contact us at **support@yetzerinvestmentgroup.com** and we will delete that information.

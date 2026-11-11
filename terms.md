@@ -1,6 +1,6 @@
 # Go-Kart Hippo Terms of Service
 
-**Last updated:** October 28, 2026
+**Last updated:** November 11, 2026
 
 These Terms of Service ("Terms") govern your use of the Go-Kart Hippo mobile application ("Go-Kart Hippo" or "the app"), operated by YETZER Investment Group LLC ("we," "us," or "our"). By creating an account or using Go-Kart Hippo, you agree to these Terms. If you do not agree, do not use the app.
 
@@ -90,6 +90,8 @@ You are responsible for any taxes you owe on your income. Go-Kart Hippo does not
 The Go-Kart Hippo app, including its code, design, branding, and content, is owned by YETZER Investment Group LLC and protected by copyright, trademark, and other intellectual-property laws. We grant you a limited, non-exclusive, non-transferable, revocable license to use the app for your own business purposes while these Terms remain in effect. You may not copy, modify, distribute, sell, or sublicense any part of the app without our written permission.
 
 The information you enter into Go-Kart Hippo (your clients, your appointments, your notes) remains yours. You grant us a limited license to store, process, and display that information solely to operate the app for you.
+
+**Copyright complaints.** If you believe something shown through Go-Kart Hippo, such as a provider's photo or logo, infringes your copyright, send a notice to our designated agent under the Digital Millennium Copyright Act: Maria Reis, Yetzer Investment Group LLC, 2121 South Hiawassee Road 4542, Orlando, FL 32835. Phone: 407-925-7308. Email: hello@gokarthippo.com.
 
 ## Third-party services
 
